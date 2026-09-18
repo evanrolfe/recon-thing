@@ -161,7 +161,7 @@ export function TargetDetail() {
       <div className="card bg-base-200 shadow-sm">
         <div className="card-body p-0">
           <div className="flex items-center justify-between px-5 pt-5">
-            <h2 className="text-lg font-semibold">Flows observed in this scan</h2>
+            <h2 className="text-lg font-semibold">Flows observed</h2>
             <span className="text-base-content/50 text-sm">{flows.length} flows</span>
           </div>
           <div className="overflow-x-auto">
