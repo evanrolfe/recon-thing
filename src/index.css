@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: sunset --default, light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
