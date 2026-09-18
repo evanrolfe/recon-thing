@@ -4,7 +4,7 @@ import { getNotifications, getTargets } from '../data/queries'
 function BrandMark() {
   return (
     <span className="inline-flex items-center gap-2 text-lg font-semibold">
-      <img src="/favicon.svg" alt="" className="h-7 w-7" />
+      <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" className="h-7 w-7" />
       Recon<span className="text-primary">Thing</span>
     </span>
   )
